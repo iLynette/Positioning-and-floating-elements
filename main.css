@@ -73,3 +73,31 @@ h2 {
 .inflation h2 {
     margin-right: 950px;
 }
+.satelite-pic img {
+    width: 600px;
+    height: 400px;
+}
+.comments {
+    margin: 30px;
+}
+.comments button {
+    width: 300px;
+    height: 40px;
+    background-color: #326891;
+    cursor: pointer;
+}
+.comments img {
+    float: right;
+    margin: 2px;
+    cursor: pointer;
+
+}
+.grid-container {
+    margin: 10px;
+    margin-left: 70px;
+}
+.pic {
+    width: 264px;
+    height: 176px;
+    float: left;
+}
