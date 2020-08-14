@@ -1,0 +1,56 @@
+.nav-bar {
+    width: 100%;
+    height: 80px;
+    margin: 0;
+    background-color: white;
+    position: fixed;
+}
+.left img {
+    height: 20px;
+    margin-top:10px;
+    padding: 5px;
+}
+.left a {
+   text-decoration: none;
+   padding: 12px;
+}
+.logo {
+   height: 26px;
+   width: 189px;
+   margin-left: 300px; 
+}
+.right {
+    float: right; 
+    
+}
+
+.main {
+    height: auto;
+    width: 100%;
+}
+h2 {
+    text-align: center;
+}
+.main img {
+    width: 920px;
+    height: 496px;
+    margin-left: 150px;   
+}
+.main p {
+    margin-left: 150px;
+    margin-top: 0;
+    margin-right: 150px;
+}
+.author {
+    margin-left: 300px;
+}
+.pics {
+    float: right;
+    margin-right: 310px;
+}
+.writings {
+    font-size: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+    
+}
