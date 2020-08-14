@@ -93,11 +93,18 @@ h2 {
 
 }
 .grid-container {
-    margin: 10px;
-    margin-left: 70px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(100px, 1fr));
+    margin: 20px;
+    margin-left: 40px;
+    
 }
-.pic {
-    width: 264px;
+.grid-container figure {
+    display: flex;
+    flex-direction: column;
+}
+.grid-container figure img {
     height: 176px;
-    float: left;
+    width: 264px;
+
 }
