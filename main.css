@@ -94,7 +94,7 @@ h2 {
 }
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(3, minmax(100px, 1fr));
+    grid-template-columns: repeat(3, 200px);
     margin: 20px;
     margin-left: 40px;
     
@@ -106,5 +106,12 @@ h2 {
 .grid-container figure img {
     height: 176px;
     width: 264px;
-
+}
+.editors {
+    margin: 20px;
+    padding: 20px;
+}
+.editors img {
+    width: 246px;
+    height: 176px;
 }
