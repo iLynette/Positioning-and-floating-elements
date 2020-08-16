@@ -8,6 +8,7 @@
     margin: 0;
     background-color: white;
     position: fixed;
+    border-bottom: 1px solid gainsboro;
 }
 .left img {
     height: 20px;
@@ -53,6 +54,9 @@ h2 {
 .author {
     margin-left: 300px;
 }
+.author a {
+    color: black;
+}
 .pics {
     float: right;
     margin-right: 310px;
@@ -64,17 +68,20 @@ h2 {
     margin-right: 300px;
     
 }
-.snippet hr {
-    
-    
-}
 .snippet {
+    padding: 40px;
     text-align: center;
     font-weight: bold;
+    
+}
+.snippet hr {
+    margin-left: 40%;
+    margin-right: 40%;
 }
 .snippet a {
     text-decoration: none;
-    color: blue;  
+    color: blue; 
+     
 }
 .inflation {
     margin-left: 150px;
