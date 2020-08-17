@@ -4,11 +4,13 @@
 }
 .nav-bar {
     width: 100%;
-    height: 80px;
+    height: 30px;
     margin: 0;
     background-color: white;
     position: fixed;
+    padding-bottom: 20px;
     border-bottom: 1px solid gainsboro;
+    padding-top: 10px;
 }
 .left img {
     height: 20px;
@@ -17,21 +19,28 @@
 }
 .left a {
    text-decoration: none;
-   padding: 12px;
+   color: #000000;
+   padding-left: 20px;
 }
 .logo {
    height: 26px;
    width: 189px;
    margin-left: 300px; 
 }
-.right {
-    float: right;    
+.left button {
+    float: right; 
+    width: 140px;
+    height: 30px;
+    background-color: #326891;
+    cursor: pointer;
+    padding-top: ;  
 }
 .right button {
     width: 140px;
     height: 30px;
     background-color: #326891;
     cursor: pointer;
+    float: right;
 }
 
 .main {
@@ -40,6 +49,7 @@
 }
 h2 {
     text-align: center;
+    position: relative;
 }
 .main img {
     width: 920px;
@@ -86,6 +96,16 @@ h2 {
     color: blue; 
      
 }
+.line-divider {
+    margin-left: 8%;
+    margin-right: 28%;
+}
+.space {
+    padding-left: 100px;
+}
+.pick {
+    padding-left: 110px;
+}
 .inflation {
     margin-left: 150px;
 }
@@ -95,6 +115,7 @@ h2 {
 .satelite-pic img {
     width: 600px;
     height: 400px;
+    cursor: pointer;
 }
 .comments {
     margin: 30px;
@@ -114,7 +135,8 @@ h2 {
     display: grid;
     grid-template-columns: repeat(3, 200px);
     margin: 20px;
-    margin-left: 40px;
+    margin-left: 20px;
+    justify-content: space-evenly;
     
 }
 .grid-container figure {
@@ -124,17 +146,19 @@ h2 {
 .grid-container figure img {
     height: 176px;
     width: 264px;
+    cursor: pointer;
 }
 .editors {
     display: grid;
     grid-template-columns: repeat(3, 200px);
     margin: 20px;
     padding: 20px;
+    justify-content: space-evenly;
 }
 .editors img {
     width: 246px;
     height: 176px;
-    justify-content: space-between;
+    cursor: pointer;
 }
 .right-section {
     float: right;
@@ -202,7 +226,6 @@ footer a:hover {
 
 #footer-company {
     border-left-width: 1px;
-    border-style: solid;
     border-color: white;
     box-sizing: border-box;
     padding-left: 15px;
